@@ -2,7 +2,7 @@ from currency_converter import CurrencyConverter
 from tkinter import *
 
 c = CurrencyConverter()
-total = 0
+
 
 def selectCurrency(event):
     select_cart_label.configure(text="If You Select THB Cart You Don't Paid VAT.")
@@ -62,8 +62,7 @@ window.title("Muscle Whey")
 window.minsize(700,450)
 window.configure(bg='#FCF3CF')
 
-title_label = Label(window,text=" Welcome to Muscle Protien Shop"
-,fg='Green',font=("Helvetica",16),anchor=W)
+title_label = Label(window,text=" Welcome to Muscle Protien Shop",fg='Green',font=("Helvetica",16),anchor=W)
 title_label.grid(row=0,column=2)
 
 whey1_label = Label(window,text="Siam Protien(1000B./Pack)",bg='#FCF3CF',font=20)
